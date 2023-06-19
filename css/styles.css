@@ -695,6 +695,7 @@ icon_advantages {
 }
 
 .modal {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -715,12 +716,7 @@ icon_advantages {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 72px;
   margin-bottom: 16px;
-}
-
-.modal-container {
-  padding: 72px 24px 24px 24px;
 }
 
 .input-div {
@@ -740,13 +736,11 @@ icon_advantages {
 }
 
 .label_name {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block;
   margin-bottom: 4px;
 }
 
