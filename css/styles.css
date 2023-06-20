@@ -808,7 +808,6 @@ icon_advantages {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
 }
 
@@ -829,7 +828,7 @@ icon_advantages {
 .input-check {
   height: 0;
 }
-.check-text span {
+.check-text .span {
   width: 16px;
   height: 16px;
   border: 1px solid #8e8f99;
