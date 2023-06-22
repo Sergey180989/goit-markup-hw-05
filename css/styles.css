@@ -912,11 +912,7 @@ icon_advantages {
   fill: #f4f4fd;
 }
 
-.input-check:focus + .check-text span {
-  border: 2px solid red;
-}
-
-.input-check:hover + .check-text span {
+.input-check:focus:not(:checked) + .check-text span {
   border: 2px solid red;
 }
 
