@@ -906,13 +906,17 @@ icon_advantages {
   text-decoration: underline;
 }
 
-.input-check:checked + .check-text .span {
+.input-check:checked + .check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.input-check:focus + .check-text .span {
+.input-check:focus + .check-text span {
+  border: 2px solid red;
+}
+
+.input-check:hover + .check-text span {
   border: 2px solid red;
 }
 
